@@ -12,7 +12,6 @@ body{
 
 .nav{
     width: 10%;
-    height: 100vh;
     background-color: beige;
 }
 .nav .nav_tab_btn{
@@ -32,34 +31,4 @@ body{
 .main{
     width: 90%;
     padding-left: 10px;
-}
-.main .subs{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.main .subs .subjects{
-    width: 475px;
-    height: 100px;
-    border: 1px solid black;
-    margin: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-}
-
-
-.main .class_scroll{
-    overflow: auto;
-    white-space: nowrap;
-}
-.main .class_scroll .class_choose{
-    width: 250px;
-    height: 25px;
-    display: inline-block;
-    border: 1px solid black;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
 }
