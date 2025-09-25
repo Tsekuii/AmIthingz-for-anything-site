@@ -12,6 +12,7 @@ body{
 
 .nav{
     width: 10%;
+    height: 100%;
     background-color: beige;
 }
 .nav .nav_tab_btn{
@@ -30,5 +31,50 @@ body{
 
 .main{
     width: 90%;
+    height: 100vh;
     padding-left: 10px;
+}
+.main .upper_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30%;    
+}
+.main .upper_section .sections_u .search_button{
+    border-radius: 30px;
+    height: 40px;
+}
+.main .upper_section .sections_u input{
+    width: 50%;
+    height: 40px;
+    border-radius: 30px;
+    font-size:1.5em;
+}
+.main .upper_section #search_btn{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+.main .down_section{
+    display: flex;
+    flex-direction: row;
+}
+.main .down_section .sections_d{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .down_section #recommend_section{
+    width: 25%;
+    height: 500px;
+}
+.main .down_section #result_section{
+    width: 70%;
+    height: 500px;
+    margin-left: 50px;
 }
